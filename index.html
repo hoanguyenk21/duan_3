@@ -1,0 +1,438 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+  
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400&display=swap" rel="stylesheet">
+     
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+   <link rel="stylesheet" href="v/idex.css">
+   
+   <title>index</title>
+   <style>
+       .banner{
+        Width :100%;
+       padding-bottom: 40px;
+       height: 500px;
+
+        background-image: url(img/image26.png);
+        padding-top: 379px;
+}
+  .bancobiet{
+        width: 100%;
+        background-image: url(img/Group575.png);
+       padding-bottom: 70px;
+  }
+  .chuongtrinh{
+    height: 791px;
+    width: 100%;
+    background-image: url(img/Group566.jpg);
+  }
+  #myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: white;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 4px;
+}
+
+#myBtn:hover {
+  background-color: #FFFFFF;
+}
+   </style>
+  </head>
+  <body>
+    <button style="border-radius: 50%; border-color: white;" onclick="topFunction()" id="myBtn" title="Go to top"><img src="img/arrow-up.png" alt=""></button>
+
+
+
+<script>
+//Get the button
+var mybutton = document.getElementById("myBtn");
+
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+</script>
+    <header>
+
+    <div class="baner01" style="padding-bottom: 6px;" >
+        
+            <img class="logo1" src="img/logo 1.png" alt="">
+       
+         <h3 class="logo" style="font-weight: bold;
+         font-size: 26px;
+         line-height: 42px;
+         text-transform: uppercase;"> PHÒNG CHỐNG ĐUỐI NƯỚC</h3>
+      
+        <div class=" search">
+          <form>
+            <input type="search" placeholder="tìm kiếm....">
+          </form>
+         <img src="img/search.png" class="searchicon" alt="">
+        </div>
+    </div>
+    
+    <div class="topnav" style="clear: both;" id="myTopnav">
+      <a  href="#home" class="active n1 a1">Tang chủ </a>
+      <a href="#news" class="n1 a2">Tài liệu</a>
+      <a href="#contact" class="n1 a3">Số liệu thống kê</a>
+      <a href="#about" class="n1 a5">Tin tức & Sự kiện</a>
+      <a href="#about" class="n1 a5">Liên hệ</a>
+      <a href="#about" class="n1 a5">Đăng nhập</a>
+      <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+    </div>
+    
+    
+    
+    <script>
+       function hamDropdown() {
+       document.querySelector(".dropdown-content12").classList.toggle("hienThi");
+      }
+    function myFunction() {
+      var x = document.getElementById("myTopnav");
+      if (x.className === "topnav") {
+        x.className += " responsive";
+      } else {
+        x.className = "topnav";
+      }
+    }
+    </script>
+  
+    </header>
+<div >
+  <div class="baner1" style="position: relative;">
+    <img style=" width: 100%;
+    " src="img/image26.png" alt="">
+  
+    <div class="the">
+        <div class="text">
+            <h4  class="tieu2" style="float: left; color: white; margin-top: 13px; margin-left: 20px;">Hoạt động cho trẻ em</h4>
+            <img class="kp" style="float: left; margin-left: 199px; margin-top: 13px;" src="img/arrow-right-circle.png" alt="">
+        </div>
+        <div class="text2">
+            <p style="font-size: 17px;margin-left: 20px; margin-right: 10px;">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley ...</p>
+        </div>
+    </div></div>
+</div>
+<section class="bancobiet">
+     <h4 class="texts" style="color: #FFFFFF;">  BẠN CÓ BIẾT ?</h4>
+    <div class="container">
+    <div class="row" style="margin-top: 25px;">
+        <div class="col-12 col-md-6 col-xl-4" >
+            <div class="card" style="">
+                <img class="chu" src="img/Group 563.png" alt="">
+              <a href="#"><p style="font-weight: bold; color: #215C7C;; margin-right: 51px;">Đuối nước – nguyên nhân gây tử vong hàng đầu cho trẻ em</p></a>  
+                <img class="icon" src="img/Frame.png" alt=""></div>
+        </div>
+        <div class="col-12 col-md-6 col-xl-4">
+            <div class="card" style="">
+                <img class="chu" src="img/Group 564.png" alt="">
+              <a href="#"><p style="font-weight: bold; color:  #E11B51; margin-right: 51px;">Đuối nước – nguyên nhân gây tử vong hàng đầu cho trẻ em</p></a>  
+                <img class="icon" src="img/Frame (1).png" alt=""></div>
+        </div>
+        <div class="col-12 col-md-6 col-xl-4">
+            <div class="card" style="">
+                <img class="chu" src="img/Group 565.png" alt="">
+              <a href="#"><p style="font-weight: bold; color: #33684B; margin-right: 51px;">Đuối nước – nguyên nhân gây tử vong hàng đầu cho trẻ em</p></a>  
+                <img class="icon" src="img/Frame (2).png" alt=""></div>
+        </div>
+    </div>
+</div>
+    </section>
+    <section class="solieu">
+        <div class="row container" >
+            <div class="col-12 col-md-12 col-xl-6  cha" >
+            <img class="anhsl" style="width: 750px;" src="img/Mask Group.png" alt="">  
+            <img class="lo"  src="img/logo 1.png" alt="">  
+            </div>
+            <div class="col-12 col-md-12 col-xl-6 " >
+              <div class="trai">
+            <h3 style="margin-right: 400px;">TRANG SỐ LIỆU THỐNG KÊ VỀ TÌNH HÌNH ĐUỐI NƯỚC</h3>    
+            <p style="text-align: justify; margin-top: 20px;">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum</p>
+            <p style="text-align: justify; margin-top: 20px;">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries</p>
+           <a href="#"><button type="button" class="btn btn-dark" style="background-color: #0198CF !important; border-radius: 55px; border-color: #0198CF ; margin-top: 30px;"><img src="img/arrow-right-circle (1).png" alt=""> xem thêm</button></a> 
+       </div> </div>
+        </div>
+    </section>
+    <section class="chuongtrinh">
+        <div > <div class="texts" style="color: #FFFFFF;">  chương trình của chúng tôi</div>
+            <div class="container">
+            <div class="row" style="margin-top: 40px;">
+                 
+                <div class="col-12 col-md-6 col-xl-6" >
+                <div class="video">
+                    <iframe class="video1" width="100%" height="450" src="https://www.youtube.com/embed/NMobNnclyS0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                   <a href=""style="
+                     
+                      
+                       
+                   font-family: Roboto;
+                   font-style: normal;
+                   font-weight: 500;
+                   font-size: 20px;
+                   line-height: 23px;
+                   
+                   /* 333 */
+                   
+                   color: #333333;
+                   font-family: 'Roboto Condensed', sans-serif;">
+                    Bài học 1 : Cách dạy trẻ học bơi từ 3 - 6 tuổi
+                   </a>
+                </div>
+                </div>
+                <div class="col-12 col-md-6 col-xl-6" >
+                    <div class="video">
+                        <iframe class="video1" width="100%" height="450" src="https://www.youtube.com/embed/LUaLUwtu6jM" allowfullscreen></iframe>
+                       <a href="" style="
+                     
+                      
+                       
+                       font-family: Roboto;
+                       font-style: normal;
+                       font-weight: 500;
+                       font-size: 20px;
+                       line-height: 23px;
+                       
+                       /* 333 */
+                       
+                       color: #333333;
+                       font-family: 'Roboto Condensed', sans-serif;">
+                        Bài học 1 : Cách dạy trẻ học bơi từ 3 - 6 tuổi
+                       </a>
+                    </div>
+             
+            </div>
+        </div>
+        </div>
+    </section>
+    <section class="tt" style="padding-bottom: 89px;">
+
+      <div class="texts">  tin tức & sự kiện</div>
+      <div  class="container" style="margin-top: 40px;">
+        <div class="row"  >
+          <div class="col-sm-12 col-md-4 col-xl-4 ">
+            <div class="a ">
+                <img width="100%"  src="img/Rectangle 10.png" alt="">
+                <div class="b">
+                <a href=""><h4 class="tieu">Cùng học cách phòng chống đuối nước qua series phim hoạt hình "Bi và những người bạn"</h4></a> 
+                 <img src="img/clock.png" alt=""> <span>13/09/2020</span>
+                 <p style="margin-top: 14px; text-align: justify; ">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book</p>
+                <img  class="duoi" src="img/Group 570.png" alt="">
+                </div>
+              </div>
+          </div>
+          <div class="col-sm-12 col-md-4 col-xl-4 ">
+            <div class="a a13">
+                <img  width="100%"  src="img/Rectangle 12.png" alt="">
+                <div class="b">
+                 <a href=""><h4 class="tieu">Cùng học cách phòng chống đuối nước qua series phim hoạt hình "Bi và những người bạn"</h4></a>
+                 <img src="img/clock.png" alt=""> <span>13/09/2020</span>
+                 <p style="margin-top: 14px; text-align: justify; ">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book</p>
+                <img  class="duoi" src="img/Group 570.png" alt="">
+                </div>
+              </div>
+          </div>
+          <div class="col-sm-12 col-md-4 col-xl-4 ">
+            <div class="a a13">
+                <img  width="100%"  src="img/Rectangle 14.png" alt="">
+                <div class="b">
+                 <a href=""><h4 class="tieu">Cùng học cách phòng chống đuối nước qua series phim hoạt hình "Bi và những người bạn"</h4></a>
+                 <img src="img/clock.png" alt=""> <span>13/09/2020</span>
+                 <p style="margin-top: 14px; text-align: justify; ">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book</p>
+                <img  class="duoi" src="img/Group 570.png" alt="">
+                </div>
+              </div>
+          </div>
+        </div>
+      </div>
+     <a href=""><button type="button" class="btn btn-dark h" style=""><img src="img/arrow-right-circle (1).png" alt=""> xem thêm</button></a> 
+    </section>
+    <section class="doitac" style="padding-bottom: 82px; padding-top: 30px; ">
+      <div class="container">
+       <h4 class="texts"> ĐỐI TÁC</h4>
+       
+        <div class="row" >
+          <div class="col-6 col-md-3 col-xl-3">
+            <div class="dt"> 
+            <img  src="img/BLDTBXH.png" alt=""></div> 
+        </div>
+          <div class="col-6 col-md-3 col-xl-3">
+            <div class="dt"> 
+           <img src="img/Bloomberg.png" alt=""></div> 
+          </div>
+          <div class="col-6 col-md-3 col-xl-3">
+            <div class="dt"> 
+            <img src="img/WHO 1.png" alt=""></div> 
+          </div>
+          <div class="col-6 col-md-3 col-xl-3">
+            <div class="dt"> 
+            <img src="img/GHAI.png" alt=""></div> 
+          </div>
+        </div>
+        <div class="row " >
+          <div class="col-6 col-md-3 col-xl-3">
+            <div class="dt11"> 
+               <img class="anh12"  src="img/HUPH.png" alt=""></div> 
+            
+            </div>
+          <div class="col-6 col-md-3 col-xl-3">
+            <div class="dt1">
+           <img class="anh1" src="img/Hue Help 1.png" alt=""></div> 
+          </div>
+          <div class="col-6 col-md-3 col-xl-3">
+            <div class="dt1">
+            <img class="anh1" src="img/SwimForLife_logo_AM_O.png" alt=""></div> 
+          </div>
+        
+        </div>
+    </div>
+    </section>
+    <footer style="padding-bottom: 40px; background-color: #0198CF;">
+      <div class="container" >
+        <div class="row">
+          <div class="col-12 col-md-6 col-xl-4" >
+            <div class="f1">
+            <img src="img/logo 2.png" alt="">
+            <h4 class="ftexxt">PHÒNG CHỐNG ĐUỐI NƯỚC</h4>
+            <P>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+               when an unknown printer took a galley of type and scrambled it to make a type specimen book.</P>
+          </div></div>
+          <div class="col-12 col-md-6 col-xl-4 ff" style="padding-left: 100px;">
+            <div class="f2">
+            <h4 class="ftexxt">THÔNG TIN LIÊN HỆ</h4>
+
+            <a href="#"><P class="map">Địa chỉ: Hà Nội</P></a>
+           <a href="#"><p class="mail">Email: mail@phongchongduoinuoc.org</p></a> 
+           <a href="#"><p class="web">Website:http://phongchongduoinuoc.org</p></a> 
+            <div class="phone">
+             <div class="row">
+                  <div class="col-6" ><a href="#"> 
+               <div class="row cha01">
+                 <div class="col-4">
+                   <div class="tron">
+                      <img src="img/Vector.png" alt="">
+                   </div>
+                 </div>
+                 
+                 <div class="col-6">
+                   <p class="phone1" style="font-size: 11px; margin-left: -2px;">NHẬN CỨU NẠn GỌI</p>
+                 </div>
+                 <div class="col-2"><h4 class="ftexxt lo1" style="margin-top: -25px; font-size: 19px; margin-left: -30px;">112</h4></div>
+                 
+               </div></a>
+               </div>
+           
+               <div class="col-6 mp" > <a href="#">
+                <div class="row cha01">
+                  <div class="col-4">
+                    <div class="tron">
+                       <img src="img/Vector.png" alt="">
+                    </div>
+                  </div>
+                  <div class="col-5 " >
+                    <p class="pl" style="font-size: 11px; margin-left: 10px;margin-top: 30px;">GỌI</p>
+                  </div>
+                  <div class="col-2"><h4 class="ftexxt lo2" style="margin-top: -30px; font-size: 19px; margin-left: -20px;">112</h4></div>
+                  
+                </div></a>
+               </div>
+              
+             </div>
+            </div></div>
+          </div>
+          <div class="col-12 col-md-6 col-xl-4 ff" style="padding-left: 100px;">
+            <h4 class="ftexxt">THEO DÕI CHÚNG TÔI QUA</h4>
+        <div class="row">
+          <div class="col-3">
+            <a href="#">   <div class="al">
+              <img style="margin-top: 8px; margin-left: 9px;" src="img/Vector (1).png" alt="">
+            </div></a>
+         
+          </div>
+          <div class="col-3 cinh" style="margin-left: -45px;">
+            <a href="#"><div class="al">
+              <img style="margin-top: 8px; margin-left: 9px;" src="img/ko.png" alt="">
+            </div></a>
+          </div>
+          <div class="col-3 cinh" style="margin-left: -45px;">
+            <a href="#"><div class="al">
+              <img style="margin-top: 8px; margin-left: 9px;" src="img/o1.png" alt="">
+            </div></a>
+          </div>
+          <div class="col-3 cinh" style="margin-left: -45px;">
+            <a href="#"><div class="al">
+              <img style="margin-top: 8px; margin-left: 9px;" src="img/ko.png" alt="">
+            </div></a>
+          </div>
+        </div>
+        <h4 class="ml" style=" color: #FFFFFF;
+        font-family: 'Roboto Condensed', sans-serif; ;font-weight: bold;
+        padding-top: 30px;">ĐĂNG KÝ NHẬN TIN</h4>
+        <input style="background: #FFFFFF;
+        width: 361px;
+        height: 45px;
+        opacity: 0.3;
+        border: 1px solid #EBEBEB;
+        box-sizing: border-box;
+        border-radius: 5px;" type="text" name="" id="" placeholder="nhập email" class="ipy">
+        <a href="#
+        "><div style="width: 123px;background: #FFFFFF;
+        height: 45px; border: 1px solid #0198CF;
+        box-sizing: border-box;
+        border-radius: 99px; padding-left: 30px; padding-top: 10px; margin-top: 15px; color: #0198CF ; font-weight: bold;">  đăng ký</div>
+          </a>
+        </div>
+        </div>
+      </div>
+    
+    </footer> <div class="bt2" style="width: 100%;
+     height: 45px;padding-top: 15px;
+     padding-left: 40px;
+    
+     
+     background: #13A0D3;">
+       <p style="font-family: Sarabun;color: #F2F2F2; 
+       
+       font-style: normal;
+       font-weight: normal;
+       font-size: 14px;
+       line-height: 18px;
+       text-align: center;">© 2018 Phong chong duoi nuoc. All Rights Reserved.</p>
+     </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+
+   
+
+  </body>
+</html>
